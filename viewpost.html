@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="scripts/style.css">
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">SOFTUNI Blog</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Welcome (User)</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container body-content">
+        <form class="form-horizontal">
+            <fielset>
+                <legend>New Post</legend>
+
+                <div class="form-group">
+                    <label for="title" class="col-md-4 control-label">Title</label>
+
+                    <div class="col-md-4" >
+                        <input type="text" class="form-control" id="title" placeholder="Post Title">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="author" class="col-md-4 control-label">Post Author</label>
+
+                    <div class="col-md-4" >
+                        <input type="text" class="form-control" id="author" placeholder="Post Title">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="content" class="col-md-4 control-label">Post Author</label>
+
+                    <div class="col-md-4" >
+                        <textarea name="" id="content" class="form-control" rows="10" placeholder="Put Content"></textarea>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4 col-md-offset-4">
+                        <button type="reset" class="btn btn-default">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </fielset>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="container modal-footer">
+        <p>&copy2018 Software University Foundation</p>
+    </div>
+</footer>
+</body>
+
+</html>
